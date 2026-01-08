@@ -1,0 +1,60 @@
+name: visual_ai_app
+description: "A cross-platform, offline-first image recognition app"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  tflite_flutter: ^0.9.1
+  collection: ^1.17.0
+  image: ^3.0.2
+  provider: ^6.1.1
+  path_provider: ^2.0.15
+  sqflite: ^2.3.2
+  camera: ^0.10.5+9
+  path: ^1.8.3
+  http: ^1.1.0
+  connectivity_plus: ^5.0.2
+  cupertino_icons: ^1.0.6
+  google_fonts: ^6.1.0
+  flutter_svg: ^2.0.9
+  shared_preferences: ^2.2.2
+  flutter_native_splash: ^2.3.10
+  flutter_launcher_icons: ^0.13.1
+  crypto: ^3.0.3
+  timeago: ^3.6.0
+  image_picker: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  mockito: ^5.4.4
+  build_runner: ^2.4.8
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/models/
+    - assets/images/
+    - assets/icons/
+
+# Temporarily commented out until assets are available
+# flutter_native_splash:
+#   color: "#FFFFFF"
+#   image: assets/images/splash.png
+#   color_dark: "#121212"
+#   image_dark: assets/images/splash_dark.png
+
+# flutter_launcher_icons:
+#   android: "launcher_icon"
+#   ios: true
+#   image_path: "assets/icons/app_icon.png"
+#   min_sdk_android: 21
+#   remove_alpha_ios: true

@@ -1,0 +1,27 @@
+name: visual_ai_app
+description: A cross-platform offline-first image recognition app.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.7.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  image_picker_for_web: ^3.0.6
+  tflite_flutter: ^0.10.4
+  image: ^4.2.0
+  http: ^1.2.0
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/models/mobilenetv3_small.tflite
+    - assets/labels.txt

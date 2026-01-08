@@ -1,0 +1,27 @@
+# General
+*.pyc
+__pycache__/
+*.log
+.DS_Store
+.env
+
+# Python
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Flutter
+frontend/visual_ai_app/.dart_tool/
+frontend/visual_ai_app/build/
+frontend/visual_ai_app/.flutter-plugins
+frontend/visual_ai_app/.flutter-plugins-dependencies
+frontend/visual_ai_app/.pub-cache/
+
+# IDE
+.idea/
+*.iml
+
+# Docker
+*.dockerignore

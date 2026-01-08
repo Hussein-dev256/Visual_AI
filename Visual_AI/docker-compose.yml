@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend/visual_ai/
+    ports:
+      - "8000:9000"
+    volumes:
+      - ./backend/visual_ai/:/app
+  frontend:
+    build: ./frontend/visual_ai_app/
+    ports:
+      - "8080:80"

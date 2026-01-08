@@ -1,0 +1,22 @@
+[project]
+name = "visual-ai-server"
+version = "0.1.0"
+description = "FastAPI backend for Visual AI image recognition"
+authors = [{ name = "Hussein", email = "your.email@example.com" }]
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "tflite-runtime>=2.14.0",
+    "numpy>=1.26.0",
+    "pillow>=10.0.0",
+    "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0", "httpx>=0.27.0"]
+
+[tool.poetry]
+package-mode = "project"
+
+[tool.black]
+line-length = 88

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Visual AI App</string>
+    <key>NSCameraUsageDescription</key>
+    <string>Allow camera access for image recognition</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>Allow access to photos for image recognition</string>
+    <!-- Other keys -->
+</dict>
+</plist>
