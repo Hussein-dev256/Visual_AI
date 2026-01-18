@@ -1,6 +1,6 @@
 # Visual AI System
 
-A cross-platform, offline-first image recognition app with a modern UI, built with Flutter (frontend) and FastAPI (backend). Uses MobileNetV3-Small for image classification and C++ for performance-critical tasks.
+A cross-platform, offline-first image recognition app with a modern UI, built with Flutter (frontend) and FastAPI (backend). Uses MobileNetV3-Small for image classification and C++ for image processing and other performance-critical tasks.
 
 ## Features
 - Offline image recognition using TFLite.
